@@ -1,0 +1,8 @@
+W:\Fahad\AI\SQLPulse\SQLPulseAPI.Net8\artifacts\verification-obj\Debug\net8.0\SQLPulseAPI.Net8.csproj.AssemblyReference.cache
+W:\Fahad\AI\SQLPulse\SQLPulseAPI.Net8\artifacts\verification-obj\Debug\net8.0\rpswa.dswa.cache.json
+W:\Fahad\AI\SQLPulse\SQLPulseAPI.Net8\artifacts\verification-obj\Debug\net8.0\SQLPulseAPI.Net8.GeneratedMSBuildEditorConfig.editorconfig
+W:\Fahad\AI\SQLPulse\SQLPulseAPI.Net8\artifacts\verification-obj\Debug\net8.0\SQLPulseAPI.Net8.AssemblyInfoInputs.cache
+W:\Fahad\AI\SQLPulse\SQLPulseAPI.Net8\artifacts\verification-obj\Debug\net8.0\SQLPulseAPI.Net8.AssemblyInfo.cs
+W:\Fahad\AI\SQLPulse\SQLPulseAPI.Net8\artifacts\verification-obj\Debug\net8.0\SQLPulseAPI.Net8.csproj.CoreCompileInputs.cache
+W:\Fahad\AI\SQLPulse\SQLPulseAPI.Net8\artifacts\verification-obj\Debug\net8.0\SQLPulseAPI.Net8.MvcApplicationPartsAssemblyInfo.cs
+W:\Fahad\AI\SQLPulse\SQLPulseAPI.Net8\artifacts\verification-obj\Debug\net8.0\SQLPulseAPI.Net8.MvcApplicationPartsAssemblyInfo.cache

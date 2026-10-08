@@ -1,0 +1,12 @@
+# Build output
+bin/
+obj/
+
+# Local secrets and databases — never commit
+*.user
+appsettings.Local.json
+appsettings.*.Local.json
+.env
+*.db
+*.db-shm
+*.db-wal

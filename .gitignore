@@ -1,0 +1,37 @@
+# Graft's local, regenerable repository context/cache
+graft/
+
+# Build and IDE output
+bin/
+obj/
+.vs/
+packages/
+node_modules/
+publish/
+dist/
+.vite/
+*.tsbuildinfo
+
+# Logs and local databases
+logs/
+*.log
+*.db
+*.db-shm
+*.db-wal
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+appsettings.*.Local.json
+secrets/
+secrets.*
+*.pfx
+*.key
+*.pem
+
+# Generated/source-map artifacts
+*.generated.*
+*.g.cs
+*.designer.cs
+*.map

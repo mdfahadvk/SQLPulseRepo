@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>SQLPulseAPI.Net8.Tests</RootNamespace>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.11" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
+    <PackageReference Include="coverlet.collector" Version="6.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SQLPulseAPI.Net8\SQLPulseAPI.Net8.csproj" />
+  </ItemGroup>
+
+  <!--
+    TEMPORARY. AnalysisEndpointTests.cs is a zero-byte orphan left behind by an
+    interrupted write on the W: network share. The file server still holds it in a
+    state where it cannot be read, written, moved or even have its ACL queried, so
+    the compiler fails with CS1504 while it exists. The tests it was meant to hold
+    now live in AnalyzeEndpointTests.cs.
+
+    Delete the orphan file and remove this ItemGroup.
+  -->
+  <ItemGroup>
+    <Compile Remove="AnalysisEndpointTests.cs" />
+  </ItemGroup>
+
+</Project>

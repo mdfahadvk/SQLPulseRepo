@@ -1,0 +1,4 @@
+# Detectors
+#
+# Severity/confidence rules ported from `sql-pulse-agent/app/detectors/`.
+# Not implemented yet — see README.md for the migration order.

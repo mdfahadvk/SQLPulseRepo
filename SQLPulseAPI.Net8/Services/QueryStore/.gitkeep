@@ -1,0 +1,4 @@
+# Services/QueryStore
+#
+# Query Store availability checks and slow-history retrieval.
+# Not implemented yet — see README.md for the migration order.
